@@ -15,7 +15,7 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
 
 ### Pipeline Architecture
 
-![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled.png)
+![Untitled](images/Untitled.png)
 
 ### **Project Steps**
 
@@ -24,35 +24,35 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
         
         Create a Jenkins Instance in Linode by choosing in Marketplace.
         
-        ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%201.png)
+        ![Untitled](images/Untitled%201.png)
         
-        ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%202.png)
+        ![Untitled](images/Untitled%202.png)
         
         Access Jenkins from its public IP via browser and Install plugins by choosing “Installed suggested plugins”
         
-        ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%203.png)
+        ![Untitled](images/Untitled%203.png)
         
-        ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%204.png)
+        ![Untitled](images/Untitled%204.png)
         
         Create Admin user
         
-        ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%205.png)
+        ![Untitled](images/Untitled%205.png)
         
-        ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%206.png)
+        ![Untitled](images/Untitled%206.png)
         
         Set the Jenkins server’s URL
         
-        ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%207.png)
+        ![Untitled](images/Untitled%207.png)
         
         Now, Jenkins setup is complete and it is ready to be used.
         
-        ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%208.png)
+        ![Untitled](images/Untitled%208.png)
         
         Sign in to Jenkins
         
-        ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%209.png)
+        ![Untitled](images/Untitled%209.png)
         
-        ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2010.png)
+        ![Untitled](images/Untitled%2010.png)
         
     - **Install Java and Maven**
         
@@ -64,7 +64,7 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
         $ java -version
         ```
         
-        ![java-version.PNG](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/java-version.png)
+        ![java-version.PNG](images/java-version.png)
         
         Install Maven on Jenkins Server
         
@@ -74,13 +74,13 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
         $ mvn -version
         ```
         
-        ![maven-version.PNG](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/maven-version.png)
+        ![maven-version.PNG](images/maven-version.png)
         
 - **Prepare Ansible Server**
     
     Launch a Linode instance for Ansible server
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2011.png)
+    ![Untitled](images/Untitled%2011.png)
     
     Install Ansible on the instance
     
@@ -106,29 +106,29 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
     
     Create a Kubernetes Cluster on Linode platform.
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2012.png)
+    ![Untitled](images/Untitled%2012.png)
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2013.png)
+    ![Untitled](images/Untitled%2013.png)
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2014.png)
+    ![Untitled](images/Untitled%2014.png)
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2015.png)
+    ![Untitled](images/Untitled%2015.png)
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2016.png)
+    ![Untitled](images/Untitled%2016.png)
     
 - **Sonar Cloud Setup**
     
     Access [https://sonarcloud.io](https://sonarcloud.io) and log in.
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2017.png)
+    ![Untitled](images/Untitled%2017.png)
     
     Click Profile at the upper-right corner and choose “Analyze new project”.
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2018.png)
+    ![Untitled](images/Untitled%2018.png)
     
     Choose “create a project manually.”
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2019.png)
+    ![Untitled](images/Untitled%2019.png)
     
     Add Display Name and Project Key will be displayed automatically.
     
@@ -137,21 +137,21 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
     
     </aside>
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2020.png)
+    ![Untitled](images/Untitled%2020.png)
     
     Then, choose Public in this project for project visibility and click Next.
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2021.png)
+    ![Untitled](images/Untitled%2021.png)
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2022.png)
+    ![Untitled](images/Untitled%2022.png)
     
     Now, a new project is created for Pet Clinic application
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2023.png)
+    ![Untitled](images/Untitled%2023.png)
     
     Then, install SonarQube Scanner plugin on Jenkins server.
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2024.png)
+    ![Untitled](images/Untitled%2024.png)
     
 - **Prepare Jenkins pipeline and Dockerfile**
     - **Jenkins Pipeline Stage(Sonar Cloud scan)**
@@ -164,11 +164,11 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
             
             </aside>
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2025.png)
+            ![Untitled](images/Untitled%2025.png)
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2026.png)
+            ![Untitled](images/Untitled%2026.png)
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2027.png)
+            ![Untitled](images/Untitled%2027.png)
             
         - **Prepare Jenkins pipeline script**
             
@@ -204,13 +204,13 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
             
             Enter the pipeline name “Pet-Clinic-App-CICD-pipeline” and choose pipeline.
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2028.png)
+            ![Untitled](images/Untitled%2028.png)
             
             Choose pipeline script from SCM and GIt for SCM.
             
             Add Repository URL and choose none for Credentials as the repository is public. If a repository is private, we need credentials.
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2029.png)
+            ![Untitled](images/Untitled%2029.png)
             
             Add “main” for branch to build and click “Save”.
             
@@ -218,15 +218,15 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
             
             Click “Build Now” on the left side. The pipe will start running and Sonar Cloud will start to scan the repository and generate results. 
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2030.png)
+            ![Untitled](images/Untitled%2030.png)
             
         - **Check Sonar Cloud Code Scan result**
             
             We can check the code scan result in our related project in Sonar Cloud as below.
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2031.png)
+            ![Untitled](images/Untitled%2031.png)
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2032.png)
+            ![Untitled](images/Untitled%2032.png)
             
     - **Jenkins Pipeline Stage (Build app with Maven and write Dockerfile)**
         - **Prepare Jenkins pipeline script**
@@ -271,7 +271,7 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
             
             Click “Build Now” on the left side. The pipe will start running and Maven will build the application as jar file. 
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2033.png)
+            ![Untitled](images/Untitled%2033.png)
             
         - **Prepare Dockerfile**
             
@@ -301,7 +301,7 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
             $sudo apt-get install openssh-client
             ```
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2034.png)
+            ![Untitled](images/Untitled%2034.png)
             
             Install SSHPass
             
@@ -309,7 +309,7 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
             sudo apt-get install sshpass
             ```
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2035.png)
+            ![Untitled](images/Untitled%2035.png)
             
             Install Expect
             
@@ -317,7 +317,7 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
             sudo apt-get install expect
             ```
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2036.png)
+            ![Untitled](images/Untitled%2036.png)
             
         - **Prepare Jenkins pipeline script**
             
@@ -387,7 +387,7 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
             
             Then, Dockerfile will be build as Docker image on Ansible server.
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2037.png)
+            ![Untitled](images/Untitled%2037.png)
             
     - **Jenkins Pipeline Stage (Push Docker image to Docker Hub)**
         - **Add Docker Credentials to Jenkins**
@@ -483,26 +483,26 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
             
             Click “Build Now” on the left side. The pipe will start running and the Docker image will be pushed to DockerHub repository.
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2038.png)
+            ![Untitled](images/Untitled%2038.png)
             
             We can check the Docker image in our DockerHub repository.
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2039.png)
+            ![Untitled](images/Untitled%2039.png)
             
     - **Jenkins Pipeline Stage (Deploy app to Kubernetes from Ansible server)**
         - **Prepare Kubectl client on Ansible server**
             
             Install Kubectl on Ansible Server
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2040.png)
+            ![Untitled](images/Untitled%2040.png)
             
             Create kubeconfig.yaml file in Ansible server to authenticate and communicate with the Kubernetes cluster created.
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2041.png)
+            ![Untitled](images/Untitled%2041.png)
             
             Export kubeconfig.yaml as KUBECONFIG environment variable on Ansible server.
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2042.png)
+            ![Untitled](images/Untitled%2042.png)
             
         - **Prepare Kubernetes manifest files**
             
@@ -684,11 +684,11 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
             
             Click “Build Now” on the left side. The piplinee will start running and Ansible server will apply Kubernetes manifest files and the application pods and service will be applied.
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2043.png)
+            ![Untitled](images/Untitled%2043.png)
             
             Output of running ansible.yaml file
             
-            ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2044.png)
+            ![Untitled](images/Untitled%2044.png)
             
 - **Run complete Jenkins pipeline**
     
@@ -800,17 +800,17 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
     
     Now Let’s run the complete pipeline. Ansible server will apply Kubernetes manifest files and the application pods and service will be applied.
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2043.png)
+    ![Untitled](images/Untitled%2043.png)
     
     We can check the pods and service(loadbalancer) running on Kubernets Cluster.
     
     Pods
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2045.png)
+    ![Untitled](images/Untitled%2045.png)
     
     Services
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2046.png)
+    ![Untitled](images/Untitled%2046.png)
     
 - **Access deployed application**
     
@@ -818,4 +818,4 @@ This project builds a step-by-step CI/CD pipeline for Spring Boot application (P
     
     Deployed application URL:[http://143-42-79-43.ip.linodeusercontent.com/](http://143-42-79-43.ip.linodeusercontent.com/)
     
-    ![Untitled](Complete%20CI%20CD%20Pipeline%20with%20Jenkins,%20GitHub,%20Ansi%20a8d1ce5dbb9743b5b643c932bde581fb/Untitled%2047.png)
+    ![Untitled](images/Untitled%2047.png)
